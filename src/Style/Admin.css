@@ -1,0 +1,400 @@
+.admin-c {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 90vh;
+    background-color: #b8b6b6;
+  }
+  
+  .admin-1 {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 2rem;
+  }
+  
+  .admin-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 110%;
+  }
+  
+  label {
+    font-size: 30px;
+    margin-bottom: 0.8rem;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 60%;
+    padding: 0.7rem;
+    margin-bottom: 2rem;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 5px;
+  }
+  .admin-h1{
+    font-family: cursive;
+  }
+ .admin-button {
+    width: 30%;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 16px;
+    background-color: #00ff2a;
+    color: #ca1515;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+ .admin-button:hover {
+    background-color: yellow;
+    color: black;
+  }
+  
+  .admin-img {
+    background-image: url("https://thumbs.dreamstime.com/b/big-luxury-comfortable-tourist-bus-driving-highway-bright-sunny-day-blurred-motion-road-travel-coach-big-luxury-155652238.jpg");
+    background-position: center;
+    width: 50%;
+    height: 100%;
+  }
+  
+
+  /* Text Page */
+
+  .text-container {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end ;
+    align-items: center;
+    background-color: #3d1e9b;
+  }
+  
+  .text-h1 {
+    margin-right: 380px;
+    color: #ffffff;
+  }
+  
+  .text-but {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 900;
+  }
+  .text-but:hover{
+    background-color: #f30817;
+    color: #fff;
+  }
+
+
+
+  /*Add Driver
+     style={{padding:'10px',width:'300px', background:' #007bff', color:'white',}} */
+
+ .in{
+    font-family: serif;
+    width: 250px;
+    border: 2px gray solid;
+ }
+
+ /* AddProfile */
+
+ .addprofile-con {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.addprofile-lab {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.p-in {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.addprofile-button {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 120px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.addprofile-button:hover {
+  background-color: #e33e51;
+  color:black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Login Page */
+
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  padding: 100px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+.label-login {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.login-button {
+  width: 50%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.login-button:hover {
+  background-color: #db4949;
+  
+}
+
+/* Vehiclelist */
+
+.vehiclelist-form {
+  margin: 20px;
+}
+
+.vehiclelist-button {
+  background-color: #d82a2a; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.thead-vehiclelist {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.tbody-vehiclelist td {
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* Driver List */
+.driver-button {
+  background-color: #008CBA;
+  color: white;
+  font-size: 16px;
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.driver-thead {
+  background-color: #b1cfd9;
+  color: rgb(10, 9, 9);
+}
+
+.driver-tbody td {
+  padding: 8px;
+  text-align: center;
+}
+
+.driver-button2 {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.driver-button3 {
+  background-color: #f44336;
+  color: white;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+/* Add Vechile */
+
+.addvehicle-con {
+  background-color:#008CBA ;
+  border: 5px solid #0e0d0d;
+  padding: 10px;
+  /* margin: 10px; */
+  height: 465px;
+}
+.addvehicle-lable {
+ 
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.addvehicle-input{
+   width: 400px;
+}
+.addvehicle-button1{
+   padding: 10px 20px;
+   background-color: black;
+   color: #f2f2f2;
+   font-size: 18px;
+   font-family: 'Courier New', Courier, monospace;
+   border-radius: 10px;
+}
+
+
+/* AddRoute */
+
+.addroute-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 84vh;
+  border: 5px black solid;
+  background-color: #007bff;
+}
+.addroute-button5{
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: bolder;
+  background-color: #050805;
+  color: #e2e9f0;
+  border-radius: 10px;
+}
+
+/* Route List */
+
+
+.route-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 8px #07090b solid;
+  height: 83vh;
+  background-color: #dfe7f0;
+}
+
+.route-b1 {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.route-thead1 th {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+ 
+}
+
+.route-tbody1 td {
+  padding: 10px;
+}
+
+.route-bu1 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.route-b5 {
+  background-color: #f44336;
+  color: white;
+  padding: 8px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
